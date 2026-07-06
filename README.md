@@ -1,4 +1,4 @@
-# climate-risk-analysis: Chattogram, Bangladesh 2019-2024
+# climate-risk-analysis: Chattogram, Bangladesh 2019-2023
 Power BI + SQL analysis of 5-year Chattogram, Bangladesh climate data. Identified 40% increase in extreme rain and 3-month flood risk window. Built for infrastructure/ops risk planning.
 **Power BI + SQL | Business Impact: Shifted $M infrastructure planning from "averages" to "peak risk"**
 
@@ -17,8 +17,17 @@ Construction and logistics firms in Chattogram budget using 5-year rainfall aver
 3. Avoid high-wind dates for lifts → saves 20+ high-risk days/year.
 
 ### Tech Stack
-- **SQL**: Date tables, season binning, rain category classification
+- **SQL**: Create table
 - **Power BI**: YoY analysis, heatmaps, treemaps, KPI cards, executive summary
 - **DAX**: `CALCULATE`, `DIVIDE`, time intelligence, dynamic risk %
 
 ### Dashboard Pages
+![Executive Dashboard](01_Executive_summarry.png)
+![rain category](02_rain_category.png)
+![heat map](03_heat_map.png)
+![wind risk](04_wind_risk.png)
+![comfort index](05_comfort_index.png)
+![seasonal split](06_seasonal_split.png)
+
+
+
